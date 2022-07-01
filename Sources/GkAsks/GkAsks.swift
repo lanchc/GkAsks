@@ -5,4 +5,8 @@ public struct GkAsks {
 
     public init() {
     }
+    
+    public static func askRequest() {
+        print("测试方法")
+    }
 }
