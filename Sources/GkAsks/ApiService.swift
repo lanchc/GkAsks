@@ -13,6 +13,8 @@ public class ApiService: ObservableObject {
     
     private var subscribers = Set<AnyCancellable>()
     
+    public init () {}
+    
     // @Published var items: [AddressModel] = []
     
     //  "https://api.caiyunapp.com/v2/place?query=%E6%B3%89%E5%B7%9E"
